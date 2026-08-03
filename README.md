@@ -8,6 +8,19 @@ A playable Lemmings-style prototype ("PLOD") plus its visual identity board, bun
 - `identity.html` — the art-direction / visual identity board. Links back to the game.
 - `src/` — original editable sources (Design Component HTML + `support.js` runtime). Only needed if you want to modify the design; **do not deploy `src/`** unless you want the editable versions online too.
 
+## Skills
+
+- **1 · CLIMBER** — scales walls too tall to just walk up.
+- **2 · FLOATER** — survives any fall, no matter how far.
+- **3 · BOMBER** — detonates after 3s, blasting a wide crater (fatal to the plod).
+- **4 · BLOCKER** — plants itself and turns walking plods around — a wall of one.
+- **5 · BUILDER** — lays a plank staircase to bridge gaps or climb up.
+- **6 · BASHER** — tunnels straight through a horizontal obstruction at floor height, so plods can walk through.
+- **7 · MINER** — cuts a diagonal tunnel downward through sloped terrain.
+- **8 · DIGGER** — drops straight down through a floor via a vertical shaft.
+
+Steel terrain can't be dug through by any skill. BLOCKER/BUILDER/BASHER/MINER/DIGGER can only be assigned to a plod that's currently walking. BASHER, MINER, and DIGGER stop on their own once they break through — no need to cancel them.
+
 ## Publish to GitHub Pages (via Claude Code)
 
 Ask Claude Code something like:
