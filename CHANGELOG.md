@@ -6,6 +6,8 @@ All notable changes to this project are documented here, following
 
 ## [Unreleased]
 
+## [0.2.0] - 2026-09-29
+
 ### Added
 
 - Guided tutorial level teaching all 8 skills in sequence, reached via a new
@@ -16,6 +18,7 @@ All notable changes to this project are documented here, following
   obstacle (#4).
 - Tutorial completion screen ("YOU'RE READY!") with a BACK TO MENU button that
   returns to Moss Hollow (#4).
+- Fullscreen toggle (⛶) in the game navigation
 
 ### Fixed
 
