@@ -22,6 +22,13 @@ All notable changes to this project are documented here, following
 
 ### Fixed
 
+- Diggers and miners no longer stop after a single bite. Both skills probed for
+  open ground at roughly the same depth as the cavity they had just carved, so
+  the probe read the plod's own fresh hole as air and handed the plod straight to
+  `faller`. Each now probes past the rim of its own carve — the digger straight
+  down below the shaft, the miner behind its dig front — so they keep going until
+  they hit steel, tunnel out of the world, or break into a genuinely open gap
+  (#5).
 - A digger or miner that tunnels out through the bottom of the world now dies
   instead of pacing the bottom row forever. Previously such a plod never
   resolved, so Moss Hollow could not reach its win/lose screen until the timer
